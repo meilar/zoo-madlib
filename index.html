@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Escape from the Zoo!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+   <script src="scripts/scripts.js"></script>
+  <link rel="stylesheet" href="styles/css.css">
+</head>
+<body>
+  <div class="container">
+    <h1><em>Escape!</em> from the Zoo</h1>
+    <div class="madlibs">
+    <form id="madlib-input">
+    <div class="form-group">
+      <label for="formGroupExampleInput">Your Name</label>
+      <input type="text" class="form-control" id="user-name" placeholder="Hailey Gaylor" required>
+    </div>
+    <div class="form-group">
+      <label for="formGroupExampleInput2">City</label>
+      <input type="text" class="form-control" id="city" placeholder="Anytown">
+    </div>
+    <div class="form-group">
+      <label for="formGroupExampleInput2">Animal 1</label>
+      <input type="text" class="form-control" id="animal-1" placeholder="Lions">
+    </div>
+    <div class="form-group">
+      <label for="formGroupExampleInput2">Animal 2</label>
+      <input type="text" class="form-control" id="animal-2" placeholder="Tigers">
+    </div>
+    <div class="form-group">
+      <label for="formGroupExampleInput2">Goofy First Name</label>
+      <input type="text" class="form-control" id="goof" placeholder="Waldo">
+    </div>
+    <div class="form-group">
+      <label for="formGroupExampleInput2">Animal 3</label>
+      <input type="text" class="form-control" id="animal-3" placeholder="Emu">
+    </div>
+    <div class="form-group">
+      <label for="formGroupExampleInput2">Very Large Number</label>
+      <input type="text" class="form-control" id="bat-num" placeholder="14 million">
+    </div>
+  </form>
+  <div class="submit-button">
+  <button type="submit" value="Submit" class="btn btn-primary" id="sub-btn">Turn this Sadlib into a Madlib!</button>
+  </div>
+    </div>
+    <div class="output">
+      <h2>Escape! from the Zoo</h2>
+      <h4>by <span class="user-name"></span> </h4>
+      <h6><span class="city"></span></h6>
+      <p>At 5:55am this morning the power failed at the Zoo.<span class="animal-1"></span> and <span class="animal-2"></span> escaped from their enclosures. The head zookeeper, <span class="goof"></span> McGoober, reported that no animals were harmed. Several neighborhood residents claimed to see <span class="animal-3"></span> tracks in their backyards. All <span class="bat-num"></span> bats were asleep.
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.container {
+  padding: 20%;
+}
+.madlibs {
+  margin-top: 50px;
+}
+.output {
+  margin-top: 50px;
+  /* display: none; */
+}
+.submit-button {
+  margin-top: 25px;
+}
